@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HANGMAN</title>
+</head>
+<body>
+    <div class="game_modal">
+        <div class="content">
+            <img src="image/sad.gif" alt="">
+            <h4></h4>
+            <p><b></b></p>
+            <button class="play_again">Play Again</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman_container">
+            <img src="image/0.png" alt="">
+            <h3>HANGMAN GAME</h3>
+        </div>
+        <div class="game_box">
+            <ul class="word_display">
+            </ul>
+            <h3 class="hint_text">
+                Hint:
+                <b></b>
+            </h3>
+            <h3 class="guesses_text">
+                Incorect guesses: 
+                <b>0 / 6</b>
+            </h3>
+            <div class="keyboard">
+            </div>
+        </div>
+    </div>
+    <script src="js/word-list.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
